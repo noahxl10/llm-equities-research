@@ -1,0 +1,10 @@
+*.notes
+**/gpenv/
+**/local/
+**/__pycache__/
+*.env
+*.json
+*.DS_Store
+*.dockerignore
+**/test.py
+**/adep/
