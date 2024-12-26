@@ -1,6 +1,5 @@
-# GPLLM-CORE
-The backend code for the Grandeur Peak LLM project.
-GPLLM-UI is the VueJS frontend (seperate repo).
+# llm-equities-research
+Backend for the VueJS frontend (seperate repo).
 
 ### Repo background
 **/dba**
