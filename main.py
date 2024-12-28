@@ -1,9 +1,3 @@
-"""
-Author: Noah Alex
-Contact: noahcalex@gmail.com
-Year: 2024
-Company: Grandeur Peak Global Advisors
-"""
 
 from app import create_app
 import os

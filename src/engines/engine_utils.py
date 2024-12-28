@@ -1,12 +1,11 @@
 def get_one_pager_beginning_of_prompt(ticker):
-    f"Answer the following question for the company {ticker} with a 'yes' or 'no' followed by your reasoning and citation based on the documents you have access to: "
+    f""
 
 
 def build_one_pager_request_string(
     ticker, beg_of_prompt, override_core_prompt, core_prompt
 ):
     return f"""
-        YOU ARE A FINANCIAL ANALYST - For the company {ticker} {beg_of_prompt} {coalesce(override_core_prompt, core_prompt)} [YOU HAVE A STRICT REQUIREMENT TO LIMIT THE RESPONSE TO 50 CHARACTERS]
     """
 
 
